@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>> t;
+	while(t--){
+	    int bike , car;
+	    cin>>bike>>car;
+	    int bike_tyre,car_tyre;
+	    bike_tyre=bike*2;
+	    car_tyre= car*4;
+	    int tyre= bike_tyre+car_tyre;
+	    cout<<tyre<<endl;
+	}
+	return 0;
+}
